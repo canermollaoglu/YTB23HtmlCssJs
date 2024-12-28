@@ -1,0 +1,48 @@
+Standart HTML Sayfa Yapısı Nasıl Olur?
+Html sayfalr belirli bir yapıya sahiptir. Bu yapı, sayfanın tarayıcıda nasıl görüneceğini belirler.
+
+
+<!DOCTYPE html>
+<html lang="tr">
+
+    <head>
+        <meta charset="UTF-8">
+        <!-- UTF-8 değeri, unicode karakter kodlamasının bir biçimidir. Dünya genelinde kullanılan hemen hemen tüm karakterleri temsil edebilir ve web sayfalarından yaygın olarak kullanır. -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Amaç: Tarayıcıya sayfanın boyutlarını ve ölçekleme davranışını belirtir. width=device-width: Sayfanın genişliği, cihazın ekran genişliği ile aynı olur. 
+         initial-scale=1.0: Sayfa yüklendiğinde başlangıç yakınlaştırma seviyesi 1.0 olarak ayarlanır. -->
+        <meta name="description" content="Sayfa açıklaması">
+        <!-- Sayfanın kısa bir açıklamasını arama motarlarına iletir -->
+        <meta name="keywords" content="egitim,istihdam,.net,teknoloji">
+        <!-- Sayfanın içeriği ile ilgili anahtar kelimeleri tanımlar. -->
+        <meta name="author" content="Caner Mollaoğlu">
+        <!-- Sayfanın yazarını belirler. -->
+        <title>Sayfa Yapısı</title>
+        <!-- Sayfa başlığını belirtir. -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Sayfanın biçim (css) dosyasını belirtir. -->
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <!-- Sayfanın simgesini belirler -->
+        <style>
+            /* Stil değişiklikleri yapılabilir. */
+            body {
+                background-color: lightblue;
+            }
+        </style>
+        <script src="script.js"></script>
+        <!-- Sayfaya dış Javascipt dosyası ekler. -->
+    </head>
+
+    <body>
+        <h1>Bu bir başlıktır.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, debitis expedita explicabo nisi accusamus eum
+            nulla iste minima consequuntur, inventore neque. Dicta maxime minima enim quo, veritatis odit culpa esse.
+        </p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni ab, voluptate aliquam labore architecto
+            distinctio quam eveniet. Repellendus facilis sed, aspernatur consequuntur, distinctio accusantium molestiae
+            impedit assumenda tenetur natus quas? Maiores, provident culpa eaque deleniti nemo dignissimos, recusandae
+            optio molestias tempora, atque fugit! Sed exercitationem ipsa voluptate minima veritatis dolore.
+        </p>
+    </body>
+
+</html>
